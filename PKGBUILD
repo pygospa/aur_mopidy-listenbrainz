@@ -1,7 +1,7 @@
 # Maintainer: Kannan Thambiah <pygospa at gmail dot com>
 
 pkgname=mopidy-listenbrainz
-pkgver=2.0.1
+pkgver=0.2.0
 pkgrel=1
 pkgdesc="Mopidy extension for scrobbling played tracks to listenbrainz"
 arch=("any")
@@ -21,7 +21,7 @@ makedepends=(
 )
 
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('780102752f4327fff81dc7c27f40cd7688e7bfd355463be444dd9c2ae3981e09')
+sha256sums=('7608b361277a8f98e962b552111718897fa5293227c175943bd66268ee72495e')
 
 build() {
 	cd "$pkgname-$pkgver"
