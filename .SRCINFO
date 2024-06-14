@@ -1,6 +1,6 @@
 pkgbase = mopidy-listenbrainz
 	pkgdesc = Mopidy extension for scrobbling played tracks to listenbrainz
-	pkgver = 2.0.1
+	pkgver = 0.2.0
 	pkgrel = 1
 	url = https://github.com/suaviloquence/mopidy-listenbrainz
 	arch = any
@@ -13,7 +13,7 @@ pkgbase = mopidy-listenbrainz
 	depends = python-pykka
 	depends = python-pylast
 	depends = python-setuptools
-	source = mopidy-listenbrainz-2.0.1.tar.gz::https://github.com/suaviloquence/mopidy-listenbrainz/archive/refs/tags/v2.0.1.tar.gz
-	sha256sums = 780102752f4327fff81dc7c27f40cd7688e7bfd355463be444dd9c2ae3981e09
+	source = mopidy-listenbrainz-0.2.0.tar.gz::https://github.com/suaviloquence/mopidy-listenbrainz/archive/refs/tags/v0.2.0.tar.gz
+	sha256sums = 7608b361277a8f98e962b552111718897fa5293227c175943bd66268ee72495e
 
 pkgname = mopidy-listenbrainz
